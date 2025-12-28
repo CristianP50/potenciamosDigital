@@ -1,6 +1,9 @@
 .hero {
-    background: linear-gradient(135deg, var(--azul-corporativo) 0%, var(--azul-accion) 100%);
-    color: var(--blanco);
+    background-image: url('/img/image-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--azul-corporativo);
     padding: 6rem 0 4rem;
     position: relative;
     overflow: hidden;
@@ -9,12 +12,17 @@
 .hero::before {
     content: '';
     position: absolute;
-    top: -50%;
-    right: -10%;
-    width: 500px;
-    height: 40vh;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.76) 0%, rgba(255, 255, 255, 0.7) 100%);
+    z-index: 1;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
 }
 
 .hero h1 {

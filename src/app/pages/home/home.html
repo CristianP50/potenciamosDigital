@@ -3,14 +3,27 @@
         <div class="row align-items-center">
             <div class="col-lg-8">
                 <h1>Éxito Digital con Respaldo Legal</h1>
-                <p>Impulsamos negocios que trasciendan. Soluciones digitales integradas con sólido respaldo legal
-                    para emprendedores y empresas que buscan crecer de forma segura y sostenible.</p>
+                <p>En Potenciamos integramos lo digital y lo legal: creamos páginas web, tiendas virtuales y estrategias
+                    en redes sociales, mientras te brindamos respaldo jurídico en constitución de empresas y protección
+                    de marca.</p>
                 <button class="btn btn-light-custom btn-lg">Descubre Cómo</button>
             </div>
-            <div class="col-lg-4 text-center">
-                <i class="fas fa-shield-alt" style="font-size: 10rem; opacity: 0.2;"></i>
-            </div>
         </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section id="contacto" class="cta-section">
+    <div class="container">
+        <app-carrousel [images]="serviceImages" [title]="'Servicios Digitales & Legales'"
+            [subtitle]="'Desliza para conocer nuestras soluciones integrales'" [autoplayInterval]="4000">
+        </app-carrousel>
+
+        <h2>¿Listo para Potenciar tu Negocio?</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 2rem;">Únete a los emprendedores y empresas que crecen con
+            confianza y seguridad</p>
+        <button class="btn btn-light-custom btn-lg me-3">Contactar Ahora</button>
+        <button class="btn btn-outline-light btn-lg">Conocer Más</button>
     </div>
 </section>
 
@@ -120,13 +133,4 @@
     </div>
 </section>
 
-<!-- CTA Section -->
-<section id="contacto" class="cta-section">
-    <div class="container">
-        <h2>¿Listo para Potenciar tu Negocio?</h2>
-        <p style="font-size: 1.2rem; margin-bottom: 2rem;">Únete a los emprendedores y empresas que crecen con
-            confianza y seguridad</p>
-        <button class="btn btn-light-custom btn-lg me-3">Contactar Ahora</button>
-        <button class="btn btn-outline-light btn-lg">Conocer Más</button>
-    </div>
-</section>
+<app-footer></app-footer>
