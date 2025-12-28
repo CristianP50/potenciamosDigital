@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Footer } from '../../components/footer/footer';
 import { Carrousel, ServiceImage } from '../../components/carrousel/carrousel';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [Footer, Carrousel],
+  imports: [Footer, Carrousel, RouterLink],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
