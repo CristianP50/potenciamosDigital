@@ -9,12 +9,12 @@
 
 .hero-about {
     position: relative;
+    height: 82.9vh;
     min-height: auto;
     display: flex;
     align-items: center;
     overflow: hidden;
     background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-light) 100%);
-    padding: 4.1rem 0 4.5rem;
 }
 
 .hero-background {
