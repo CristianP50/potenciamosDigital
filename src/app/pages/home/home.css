@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     color: var(--azul-corporativo);
     height: 82.9vh;
+    padding-top: 5rem;
     position: relative;
     overflow: hidden;
 }
