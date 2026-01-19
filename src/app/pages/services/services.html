@@ -10,11 +10,10 @@
                 </h1>
 
                 <p class="hero-description">
-                    Las páginas de aterrizaje son el sitio ideal para convertir tus visitas,
-                    si lo que buscas es algo práctico donde puedas convertir tus usuarios en
-                    futuros clientes, este es la Landing Page perfecta, la combinación correcta
-                    de diseño y persuasión para lograr que tu Empresa o Marca lleve sus productos
-                    o servicios al siguiente nivel.
+                    Potenciamos es una agencia digital que integra estrategia digital y respaldo legal. Diseñamos y
+                    creamos páginas web, tiendas virtuales y estrategias efectivas en redes sociales, mientras brindamos
+                    asesoría jurídica en la constitución de empresas y la protección de marca. Ofrecemos un servicio
+                    integral que impulsa el crecimiento, la formalización y la seguridad de los negocios.
                 </p>
 
                 <div class="hero-benefit">
@@ -50,6 +49,29 @@
     </div>
 </section>
 
+<!-- Menú de navegación de servicios -->
+<nav class="services-nav">
+    <div class="container">
+        <div class="services-nav-content">
+            <a (click)="scrollToSection('web-design')" class="services-nav-link">
+                <i class="fas fa-globe"></i>
+                <span>Diseño Web</span>
+            </a>
+            <a (click)="scrollToSection('branding')" class="services-nav-link">
+                <i class="fas fa-palette"></i>
+                <span>Branding</span>
+            </a>
+            <a (click)="scrollToSection('marketing')" class="services-nav-link">
+                <i class="fas fa-bullhorn"></i>
+                <span>Marketing Digital</span>
+            </a>
+            <a (click)="scrollToSection('legal')" class="services-nav-link">
+                <i class="fas fa-gavel"></i>
+                <span>Servicios Legales</span>
+            </a>
+        </div>
+    </div>
+</nav>
 
 <section class="services-section">
     <!-- Decoraciones de fondo -->
@@ -68,6 +90,9 @@
 
         <!-- Contenedor de servicios -->
         <div class="services-container">
+            <h4 id="web-design" class="service-title section-service-title mt-3 text-center">Diseño y desarrollo de
+                sitios web</h4>
+            <hr class="hr-gradient">
             <div class="row">
                 <!-- Servicio 1: Landing Page -->
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -142,5 +167,251 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Sección 2: Diseño Gráfico -->
+            <h4 id="branding" class="service-title section-service-title mt-5 text-center">Diseño Gráfico - Branding
+            </h4>
+            <hr class="hr-gradient">
+            <div class="row">
+                <!-- Servicio 4: Logotipo + Manual Básico -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-header">
+                            <span class="service-tag">Iniciador</span>
+                            <h3 class="service-title">Logotipo + Manual Básico</h3>
+                            <p class="service-ideal">
+                                <strong>Ideal para:</strong> marcas nuevas o pequeños negocios que buscan identidad
+                                visual profesional.
+                            </p>
+                        </div>
+
+                        <div class="service-content">
+                            <h4>Incluye:</h4>
+                            <ul class="service-list">
+                                <li>1 propuesta base de logo + 2 ajustes</li>
+                                <li>Variantes del logo</li>
+                                <li>Paleta de color básica (2 principales + 2 secundarios)</li>
+                                <li>Tipografía principal y secundaria</li>
+                                <li>Mini manual de marca (4-7 páginas)</li>
+                                <li>Guía de uso</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 5: Plan Completo -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-header">
+                            <span class="service-tag">Premium</span>
+                            <h3 class="service-title">Plan Completo</h3>
+                            <p class="service-ideal">
+                                <strong>Ideal para:</strong> empresas que desean una identidad visual integral y
+                                diferenciadora.
+                            </p>
+                        </div>
+
+                        <div class="service-content">
+                            <h4>Incluye:</h4>
+                            <ul class="service-list">
+                                <li>Investigación visual y conceptual</li>
+                                <li>2 propuestas de logo + revisiones</li>
+                                <li>Paleta de color extendida</li>
+                                <li>Sistema tipográfico completo</li>
+                                <li>Patrones y texturas complementarias</li>
+                                <li>Aplicaciones gráficas (firma, membretes, tarjeta)</li>
+                                <li>Manual de marca (8-12 páginas)</li>
+                                <li>Guía de uso</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 6: Fotografía -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-header">
+                            <span class="service-tag">Visual</span>
+                            <h3 class="service-title">Fotografía de Producto y Marca</h3>
+                            <p class="service-ideal">
+                                <strong>Ideal para:</strong> negocios que necesitan imágenes profesionales de alta
+                                calidad.
+                            </p>
+                        </div>
+
+                        <div class="service-content">
+                            <h4>Incluye:</h4>
+                            <ul class="service-list">
+                                <li>Dirección de arte y concepto visual</li>
+                                <li>Fotografías editadas en alta calidad</li>
+                                <li>Retoque de color y ajustes de imagen</li>
+                                <li>Entrega digital optimizada para web</li>
+                                <li>Optimizado para redes sociales</li>
+                                <li>Uso en catálogos y e-commerce</li>
+                                <li>Piezas publicitarias</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección 3: Marketing Digital -->
+            <h4 id="marketing" class="service-title section-service-title mt-5 text-center">Marketing Digital</h4>
+            <hr class="hr-gradient">
+            <div class="row">
+                <!-- Servicio 7: Plan Básico -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-header">
+                            <span class="service-tag">Iniciador</span>
+                            <h3 class="service-title">Plan Básico</h3>
+                            <p class="service-ideal">
+                                <strong>Ideal para:</strong> emprendedores que inician su presencia digital.
+                            </p>
+                        </div>
+
+                        <div class="service-content">
+                            <h4>Incluye:</h4>
+                            <ul class="service-list">
+                                <li>1 campaña Meta Ads (Facebook + Instagram)</li>
+                                <li>Optimización semanal</li>
+                                <li>Informe mensual</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 8: Plan Profesional -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-header">
+                            <span class="service-tag">Profesional</span>
+                            <h3 class="service-title">Plan Profesional</h3>
+                            <p class="service-ideal">
+                                <strong>Ideal para:</strong> negocios en crecimiento que buscan atraer más clientes.
+                            </p>
+                        </div>
+
+                        <div class="service-content">
+                            <h4>Incluye:</h4>
+                            <ul class="service-list">
+                                <li>2 campañas (Meta Ads + Google Ads)</li>
+                                <li>Segmentación avanzada</li>
+                                <li>Remarketing</li>
+                                <li>Informes quincenales</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 9: Plan Premium -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-header">
+                            <span class="service-tag">Premium</span>
+                            <h3 class="service-title">Plan Premium</h3>
+                            <p class="service-ideal">
+                                <strong>Ideal para:</strong> empresas con presencia digital activa que buscan escalar
+                                resultados.
+                            </p>
+                        </div>
+
+                        <div class="service-content">
+                            <h4>Incluye:</h4>
+                            <ul class="service-list">
+                                <li>Estrategia omnicanal (Meta, Google, TikTok)</li>
+                                <li>Embudo de ventas optimizado</li>
+                                <li>Landing page optimizada</li>
+                                <li>Informes semanales</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
+</section>
+
+<!-- Sección de Servicios Legales -->
+<section class="legal-services-section">
+    <div class="container">
+        <!-- Header de la sección -->
+        <div class="section-header">
+            <div class="section-icon legal-icon">
+                <i class="fas fa-scale-balanced"></i>
+            </div>
+            <h2 class="section-title">Asesoría Legal Empresarial</h2>
+            <p class="section-subtitle">Protege tu marca y formaliza tu negocio con asesoría legal especializada</p>
+        </div>
+
+        <!-- Contenedor de servicios legales -->
+        <div class="services-container">
+            <h4 id="legal" class="service-title section-service-title mt-3 text-center">Registro de Marca</h4>
+            <hr class="hr-gradient">
+
+            <div class="row">
+                <!-- Servicio Legal 1: Paso 1 -->
+                <div class="col-lg-6 mb-4">
+                    <div class="legal-service-card">
+                        <div class="legal-service-header">
+                            <span class="legal-service-tag">Paso 1</span>
+                            <h3 class="legal-service-title">Análisis de Registrabilidad</h3>
+                        </div>
+
+                        <div class="legal-service-content">
+                            <p class="legal-service-description">
+                                Antes de iniciar el trámite de registro, realizamos una búsqueda exhaustiva de
+                                antecedentes marcarios con el fin de identificar posibles conflictos u obstáculos
+                                legales.
+                            </p>
+
+                            <h4>Este servicio incluye:</h4>
+                            <ul class="service-list">
+                                <li>Búsqueda de marcas idénticas o similares en la base de datos de la SIC</li>
+                                <li>Identificación de riesgos legales y probabilidades de éxito del registro</li>
+                                <li>Análisis jurídico especializado de los resultados obtenidos</li>
+                                <li>Concepto de viabilidad del registro marcario</li>
+                                <li>Recomendaciones estratégicas (ajustes de nombre, clase o estrategia de protección)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio Legal 2: Paso 2 -->
+                <div class="col-lg-6 mb-4">
+                    <div class="legal-service-card">
+                        <div class="legal-service-header">
+                            <span class="legal-service-tag">Paso 2</span>
+                            <h3 class="legal-service-title">Solicitud de Registro de Marca ante la SIC</h3>
+                        </div>
+
+                        <div class="legal-service-content">
+                            <p class="legal-service-description">
+                                Una vez definida la viabilidad, gestionamos el registro de su marca ante la SIC,
+                                acompañándolo durante todas las etapas del proceso.
+                            </p>
+
+                            <h4>Este servicio incluye:</h4>
+                            <ul class="service-list">
+                                <li>Preparación y radicación de la solicitud de registro marcario</li>
+                                <li>Seguimiento permanente del trámite ante la SIC</li>
+                                <li>Reportes periódicos sobre el estado del proceso</li>
+                                <li>Gestión de requerimientos u observaciones emitidas por la entidad</li>
+                                <li>Acompañamiento hasta la obtención del certificado de registro</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Botón flotante para subir al top -->
+@if (showScrollTop) {
+<div class="scroll-to-top" (click)="scrollToTop()">
+    <i class="fas fa-chevron-up"></i>
+</div>
+}
