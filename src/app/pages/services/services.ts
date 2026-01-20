@@ -2,10 +2,11 @@ import { Component, HostListener } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { Footer } from '../../components/footer/footer';
 
 @Component({
   selector: 'app-services',
-  imports: [CommonModule],
+  imports: [CommonModule, Footer],
   templateUrl: './services.html',
   styleUrl: './services.css',
 })
