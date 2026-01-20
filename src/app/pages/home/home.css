@@ -5,9 +5,14 @@
     background-repeat: no-repeat;
     color: var(--azul-corporativo);
     height: 82.9vh;
-    padding-top: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     position: relative;
     overflow: hidden;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero::before {
@@ -240,6 +245,20 @@
 
 /* Responsive */
 @media (max-width: 991px) {
+    .hero {
+        padding-top: 4rem;
+        height: auto;
+        min-height: auto;
+    }
+
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
     .about-visual {
         height: 300px;
         margin-bottom: 2rem;
@@ -274,6 +293,21 @@
 }
 
 @media (max-width: 767px) {
+    .hero {
+        padding-top: 3rem;
+        height: auto;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
     .about-redirect-section {
         padding: 3rem 0;
     }
@@ -324,16 +358,93 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
+    .hero {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        height: auto;
+        min-height: auto;
+    }
+
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
 
     .hero p {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+        min-height: auto;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
     }
 
     .section {
         padding: 3rem 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        height: auto;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        min-height: auto;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .hero p {
+        font-size: 0.95rem;
+        margin-bottom: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        height: auto;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+        min-height: auto;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        font-weight: 800;
+        margin-bottom: 0.75rem;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        margin-bottom: 1.2rem;
+        opacity: 0.95;
+        line-height: 1.5;
+    }
+
+    .hero .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    .section {
+        padding: 2rem 0;
     }
 }
