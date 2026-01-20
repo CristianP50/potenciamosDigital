@@ -1,12 +1,11 @@
 .hero-services {
     background: linear-gradient(135deg, var(--azul-corporativo) 0%, #2E3192 50%, var(--azul-accion) 100%);
-    height: 82.9vh;
+    min-height: auto;
     display: flex;
     align-items: center;
     position: relative;
     overflow: hidden;
-    padding: 2rem 0;
-    min-height: 600px;
+    padding: 0;
     /* Hereda de hero-base */
 }
 
@@ -50,7 +49,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 0.8rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -62,7 +61,7 @@
     font-size: 2.8rem;
     color: var(--blanco);
     line-height: 1.1;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -75,7 +74,7 @@
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.95);
     line-height: 1.6;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     max-width: 600px;
 }
 
@@ -86,7 +85,7 @@
     border-left: 4px solid var(--amarillo);
     padding: 1rem;
     border-radius: 10px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .hero-benefit p {
@@ -231,9 +230,10 @@
 
 @media (max-width: 768px) {
     .hero-services {
-        min-height: auto;
-        padding: 3rem 0;
-        height: auto;
+        padding: 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .hero-title {
